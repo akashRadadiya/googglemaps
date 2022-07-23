@@ -36,8 +36,8 @@ class _HomeState extends State<Home> {
       markerId: MarkerId(startLocation.toString()),
       position: startLocation,
       infoWindow: const InfoWindow(
-        title: 'Starting  Point ',
-        snippet: 'Start Marker',
+        title: 'Starting  Point \fwsmwiowajs lkneifewwamnfenf lajkakash sdi ha la i rfiewnf k ',
+        snippet: 'Start Marker \ jmoswmiacv naofnrdnaicvwefkn fkiNFIEubnfnkfkledflkejdfolwemdl',
       ),
       icon: BitmapDescriptor.defaultMarker,
     ));
