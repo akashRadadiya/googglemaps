@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
       markerId: MarkerId(startLocation.toString()),
       position: startLocation,
       infoWindow: const InfoWindow(
-        title: 'Starting Point ',
+        title: 'Starting  Point ',
         snippet: 'Start Marker',
       ),
       icon: BitmapDescriptor.defaultMarker,
@@ -46,14 +46,12 @@ class _HomeState extends State<Home> {
       markerId: MarkerId(endLocation.toString()),
       position: endLocation,
       infoWindow: const InfoWindow(
-        title: 'Destination Point ',
-        snippet: 'Destination Marker',
+        title: 'Destination  Point ',
+        snippet: 'Destination ',
       ),
       icon: BitmapDescriptor.defaultMarker,
     ));
-
     getDirections();
-
     super.initState();
   }
 
