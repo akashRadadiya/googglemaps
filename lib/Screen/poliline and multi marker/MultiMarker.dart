@@ -1,8 +1,5 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:googglemaps/Screen/googlemapscreen/Google_Map_Screeen.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class MyMaps extends StatefulWidget{
@@ -10,7 +7,6 @@ class MyMaps extends StatefulWidget{
   State<StatefulWidget> createState() {
     return MyMapsState();
   }
-
 }
 class MyMapsState extends State<MyMaps>{
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
@@ -152,7 +148,6 @@ class MyMapsState extends State<MyMaps>{
             child: FloatingActionButton(
                 child: const Icon(Icons.navigation),
                 onPressed: (){
-                  Get.to(const GoogleMapScreen());
                 }),
           ),
         )
